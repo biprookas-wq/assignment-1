@@ -317,3 +317,39 @@ main section h1 {
 /* creative section end */
 
 /* footer */
+footer{
+    background-color: #0D1B2A;
+    padding: 40px;
+}
+
+.footer{
+    padding: 23.5px 115.5px;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer a{
+    color: #888888;
+    text-decoration: none;
+}
+footer hr {
+    border: none;
+    height: 1px;
+    background-color: #888888;
+    margin: 10px 0;
+}
+
+.copyright {
+    color: #888888;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
